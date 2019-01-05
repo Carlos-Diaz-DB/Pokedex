@@ -1,0 +1,213 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100%;
+}
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{
+	display:block;
+}
+header[name="cabeceraindex"]{
+	width: 100%;
+	box-shadow: 0 0 10px 0.5px;
+	display: inline-block;
+  
+}
+/*estilos de menu*/
+#listaMenu
+{
+	height:auto;
+	margin-right:15px;
+	width: 18%;
+}
+#listaMenu2
+{
+	height:auto;
+	margin-right:60px;
+	width: 15%;
+}
+#agrupar{
+	height: auto;
+	width: 99%;
+	margin: 15px auto;
+	text-align: center;
+	background:#3d60ed;
+	border: solid 5px rgb(200,80,90);
+
+}
+#cabecera div{
+	width: 100%;
+	display: inline-block;
+	background: -webkit-linear-gradient(top,#FFFFFF, #006699,#A52451);/*#FFFFFF, #006699,#A52451*/
+   background: -moz-linear-gradient(top,#FFFFFF, #006699,#A52451);
+}
+#logo{
+	width: 20%;
+}
+img[name="imgnav"]{
+	width: 100px;/*100px*/
+}
+#info{
+	height: 100%;
+	background:#8bbbbc;
+box-shadow: 0 0 10px 0.5px;	
+margin-top: 10px;
+}
+
+#logo2{
+	width: 40%;
+}
+#logo3{
+	width: 25%;
+	float: right;
+}
+nav[name="principal"]{
+	height: auto +10px;/*120px*/
+	width: 100%;
+	background:#35a76d;
+	box-shadow: 0 0 10px 0.5px;
+}
+#navegacion li{
+	margin-top: 5px;
+	display: inline-block;
+	box-shadow: 0 0 10px 0.5px;
+	border: 2px solid #000000;
+	background:#44b0af;
+}
+
+li[name="imgpokebolas"]{
+
+	margin-right: 50px;
+}
+div[name="general"]{
+	height: 900px;
+	padding: 5px;
+
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-chrome-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+
+}
+h2[name="tituloarticle"]{
+	font: bold 25px verdana,sans-serif;
+}
+p[name="descpokedex"]{
+	font: lighter 90% verdana,sans-serif;
+	text-align: center;
+	text-align: justify;
+}
+div[name="pokemon"]{
+margin-top: 5px;
+box-shadow:  0 0 0px 0.5px;
+overflow-x: hidden;
+overflow-y: hidden;
+background: #a9b655;
+border: 2px solid #0116b4;
+width: 350px;/*350px*/
+height: 480px;
+display: inline-block;
+margin-right: 1%;
+border-radius: 1.5em;
+margin-bottom: 0.5%;
+}
+
+img[name="imagenes"]{
+	width: 200px;/*200px*/
+}
+h2[name="timg"]{
+	color:#0116b4;
+	font: 130% pokemon,sans-serif;
+	
+}
+h2[name="no_id"]{
+	color:#0116b4;
+	font: 130% pokemon,sans-serif;
+}
+@font-face{
+	font-family: 'pokemon';
+	src:url('Pokemon_Solid.ttf');
+}
+p[name="imgdescripcion"]{
+font:lighter 12px verdana,sans-serif;/*12px*/
+text-align: left;
+text-align: justify;
+margin-right: 15px;/*15px*/
+margin-left: 4%;
+}
+
+#navegacion li a:hover{
+	background-color: #a12bc1;
+	display: block;
+	padding: 3px 3px;
+	text-decoration: none;
+}
+
+li[name="nopagina"]{
+	text-decoration: none;
+display: inline-block;
+color:#000;
+background:#FFF;
+border: 2px solid #000;
+width: 20px;
+height: 20px;
+font: bold 12px verdana, sans-serif;
+}
+#pagina{
+	margin-top: 80px;
+}
+#divabout{
+	text-align: center;
+	background:#fff;
+	border: 8px solid #d1f1d1;
+}
+
+#footerabout{
+	color: rgba(192,192,192,192);
+}
+aside[name="acercade"]{
+	float: left;
+    border: 1px solid #000;
+    border-radius: 1em;
+}
+#imgabout{
+	width: 150px;
+	margin-top: 20px;
+}
+a{
+	text-decoration: none;
+}
+section[name="infoabout"]{
+width: 1200px;
+height: 600px;
+display: inline-block;
+margin-top: 100px;
+}
+time{
+	width: 1200px;
+	text-align: left;
+	font: lighter 12px verdana,sans-serif;
+	color: rgb(192,192,192,192);
+}
+footer[name="piedepagina"]{
+	text-align: center;
+	margin-top: 10px;
+	box-shadow:  0 0 0px 0.5px;
+	margin-bottom: 0px;
+	background:#adac99;
+	height: 20px;
+	font: bold 12px verdana, sans-serif;
+}
+
+/*Formulario*/
+form{
+	height: 30px;
+}
+input{
+	margin-top: 20px;
+	float: right;
+	margin-right: 50px;
+	vertical-align: middle;
+}
